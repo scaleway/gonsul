@@ -18,7 +18,7 @@ FROM alpine
 
 ARG GONSUL
 
-COPY --from=build $GONSUL/bin/gonsul /usr/bin/gonsul
+COPY --from=build --chmod=0755 $GONSUL/bin/gonsul /usr/bin/gonsul
 
 RUN adduser -D gonsul
 
