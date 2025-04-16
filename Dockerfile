@@ -1,10 +1,10 @@
 ARG GONSUL=/go/src/github.com/scaleway/gonsul
 
-FROM golang:1.24.2-alpine as build
+FROM golang:1.24.2-alpine AS build
 
 ARG GONSUL
 
-RUN apk --no-cache add build-base dep git make
+RUN apk --no-cache add build-base git make
 
 RUN mkdir -p $GONSUL
 

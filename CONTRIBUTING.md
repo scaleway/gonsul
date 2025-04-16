@@ -15,7 +15,7 @@ Gonsul is licenced under [The MIT LICENCE](LICENCE.md) for all code.
 
 ## Submitting a Bug
 
-Bugs can be submitted to the [Github issue page](https://github.com/miniclip/gonsul/issues).
+Bugs can be submitted to the [Github issue page](https://github.com/scaleway/gonsul/issues).
 
 Gonsul is not perfect software and will be buggy. When submitting a bug, be
 careful to know the following:
@@ -43,7 +43,7 @@ ask for respect and understanding and will try to provide the same back.
 
 Before requesting or implementing a new feature, please do the following:
 
-- Verify in existing [issues](https://github.com/miniclip/gonsul/issues) whether
+- Verify in existing [issues](https://github.com/scaleway/gonsul/issues) whether
   the feature might already be in the works, or
   has already been rejected.
 - Make sure you're using the latest release (or even the latest code, if you're
@@ -128,5 +128,4 @@ eventual automated changelog generation.
 
 ### Credit
 
-`gonsul` has been improved by
-[many contributors](https://github.com/miniclip/gonsul/graphs/contributors)!
+`gonsul` has been improved by [many contributors](https://github.com/scaleway/gonsul/graphs/contributors)!

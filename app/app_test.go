@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/miniclip/gonsul/internal/config"
-	"github.com/miniclip/gonsul/tests/mocks"
+	"github.com/scaleway/gonsul/internal/config"
+	"github.com/scaleway/gonsul/tests/mocks"
 
 	"os"
 	"testing"

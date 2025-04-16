@@ -1,7 +1,7 @@
 package exporter
 
 import (
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/internal/util"
 
 	"errors"
 	"fmt"

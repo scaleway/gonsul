@@ -1,8 +1,8 @@
 package exporter
 
 import (
-	"github.com/miniclip/gonsul/internal/config"
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/internal/config"
+	"github.com/scaleway/gonsul/internal/util"
 
 	"path"
 )
