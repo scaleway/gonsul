@@ -10,6 +10,21 @@ jobs:
   build:
     name: Build and Test
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      attestations: read
+      checks: read
+      contents: read
+      deployments: read
+      id-token: write|none
+      issues: read
+      models: read|none
+      discussions: read
+      packages: read
+      pages: read
+      pull-requests: read
+      security-events: read
+      statuses: read
 
     steps:
       - name: Checkout code
