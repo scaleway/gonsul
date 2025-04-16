@@ -1,7 +1,7 @@
 # Gonsul - A Git to Consul tool, in Go
 
-![Docker image](https://github.com/miniclip/gonsul/workflows/Docker%20image/badge.svg?branch=master)
-![Checks and tests](https://github.com/miniclip/gonsul/workflows/Checks%20and%20tests/badge.svg?branch=master)
+![Docker image](https://github.com/scaleway/gonsul/workflows/Docker%20image/badge.svg?branch=main)
+![Checks and tests](https://github.com/scaleway/gonsul/workflows/Checks%20and%20tests/badge.svg?branch=main)
 
 This tool serves as an entry point for the Hashicorp's Consul KV store. Not only because Consul
 lacks of a built in
@@ -9,11 +9,11 @@ audit mechanism, but also because having configurations managed in GIT, using a 
 development-to-master flow is much friendly and familiar to any development team to manage
 configurations.
 
-Downloads in [releases page](https://github.com/miniclip/gonsul/releases).
+Downloads in [releases page](https://github.com/scaleway/gonsul/releases).
 
 ## Important Notes
 
-**The master branch is being refactored**. No (big) breaking changes will happen but codebase is
+**The main branch is being refactored**. No (big) breaking changes will happen but codebase is
 under significant changes.
 Mainly adding tests, makefile, and code refactor/cleanup.
 
@@ -246,7 +246,7 @@ SSH GIT repository.
 ### `--repo-branch`
 
 > `require:` **no**
-> `default:` **master**
+> `default:` **main**
 > `example:` **`--repo-branch=my_branch_name`**
 
 This is the branch name that Gonsul should try to checkout.
