@@ -1,8 +1,5 @@
 # Gonsul - A Git to Consul tool, in Go
 
-![Docker image](https://github.com/scaleway/gonsul/workflows/Docker%20image/badge.svg?branch=main)
-![Checks and tests](https://github.com/scaleway/gonsul/workflows/Checks%20and%20tests/badge.svg?branch=main)
-
 **This            is           an            active           fork            of
 [miniclip/gonsul](https://github.com/miniclip/gonsul)        than       includes
 [jplanckeel/gonsul](https://github.com/jplanckeel/gonsul) patch for mTLS.**
