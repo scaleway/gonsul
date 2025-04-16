@@ -3,7 +3,7 @@ name: 'Docker image'
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
     tags:
       - 'v*'
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - uses: 'actions/checkout@v2'
       - uses: 'docker/build-push-action@v1'
         with:
-          repository     : 'minicliposs/gonsul'
+          repository     : 'scaleway/gonsul'
           username       : ${{ secrets.DOCKER_USERNAME }}
           password       : ${{ secrets.DOCKER_PASSWORD }}
           add_git_labels : true

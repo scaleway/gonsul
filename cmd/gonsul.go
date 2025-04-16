@@ -10,11 +10,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/miniclip/gonsul/app"
-	"github.com/miniclip/gonsul/internal/config"
-	"github.com/miniclip/gonsul/internal/exporter"
-	"github.com/miniclip/gonsul/internal/importer"
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/app"
+	"github.com/scaleway/gonsul/internal/config"
+	"github.com/scaleway/gonsul/internal/exporter"
+	"github.com/scaleway/gonsul/internal/importer"
+	"github.com/scaleway/gonsul/internal/util"
 )
 
 func main() {

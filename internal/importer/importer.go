@@ -1,9 +1,9 @@
 package importer
 
 import (
-	"github.com/miniclip/gonsul/internal/config"
-	"github.com/miniclip/gonsul/internal/entities"
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/internal/config"
+	"github.com/scaleway/gonsul/internal/entities"
+	"github.com/scaleway/gonsul/internal/util"
 
 	"errors"
 	"fmt"

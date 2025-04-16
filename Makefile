@@ -11,7 +11,7 @@ VERSION=$(shell git describe --abbrev=0 --always --tags)
 BUILD_DATE=$(shell date -u +%Y%m%d.%H%M%S)
 
 # Setup the -ldflags option for go build here, interpolate the variable values
-LDFLAGS_APP=-ldflags "-X github.com/miniclip/gonsul/app.Version=${VERSION} -X github.com/miniclip/gonsul/app.BuildDate=${BUILD_DATE}"
+LDFLAGS_APP=-ldflags "-X github.com/scaleway/gonsul/app.Version=${VERSION} -X github.com/scaleway/gonsul/app.BuildDate=${BUILD_DATE}"
 
 # Builds the application
 build:
@@ -24,7 +24,7 @@ GOPATH?=${HOME}/go
 mocks:
 	@echo "=== Generating mocks ==="
 	rm -rf ./tests/mocks/*.go
-	go install github.com/vektra/mockery/v2/.../
+	go install github.com/vektra/mockery/v2@latest
 	CGO_ENABLED=0 $(GOPATH)/bin/mockery --all --output ./tests/mocks --dir ./app/
 	CGO_ENABLED=0 $(GOPATH)/bin/mockery --all --output ./tests/mocks --dir ./internal/
 	@echo "=== Done ==="

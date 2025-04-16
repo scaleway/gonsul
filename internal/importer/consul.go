@@ -3,8 +3,8 @@ package importer
 import (
 	"strconv"
 
-	"github.com/miniclip/gonsul/internal/entities"
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/internal/entities"
+	"github.com/scaleway/gonsul/internal/util"
 
 	"bytes"
 	"encoding/json"

@@ -3,8 +3,8 @@ package importer
 import (
 	"strings"
 
-	"github.com/miniclip/gonsul/internal/entities"
-	"github.com/miniclip/gonsul/internal/util"
+	"github.com/scaleway/gonsul/internal/entities"
+	"github.com/scaleway/gonsul/internal/util"
 
 	"github.com/cbroglie/mustache"
 	"github.com/olekukonko/tablewriter"
