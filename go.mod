@@ -5,7 +5,7 @@ go 1.24.2
 require (
 	github.com/cbroglie/mustache v1.0.1
 	github.com/namsral/flag v1.7.4-pre
-	github.com/olekukonko/tablewriter v0.0.0-20180506121414-d4647c9c7a84
+	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/gomega v1.37.0
 	github.com/stretchr/testify v1.10.0
 	gopkg.in/src-d/go-git.v4 v4.13.1
@@ -21,7 +21,7 @@ require (
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd // indirect
 	github.com/kr/pretty v0.2.0 // indirect
-	github.com/mattn/go-runewidth v0.0.2 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
