@@ -3,7 +3,7 @@ module github.com/scaleway/gonsul
 go 1.24.2
 
 require (
-	github.com/cbroglie/mustache v1.0.1
+	github.com/cbroglie/mustache v1.4.0
 	github.com/namsral/flag v1.7.4-pre
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/gomega v1.37.0
